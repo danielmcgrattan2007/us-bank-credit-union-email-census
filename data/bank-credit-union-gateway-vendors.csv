@@ -1,0 +1,145 @@
+table,cohort,gateway,domains,share_of_gateway_domains_pct
+gateway_vendor,All,Proofpoint,1112,35.8
+gateway_vendor,All,Barracuda,633,20.4
+gateway_vendor,All,Mimecast,497,16.0
+gateway_vendor,All,AppRiver / Zix,424,13.6
+gateway_vendor,All,Cisco Secure Email,104,3.3
+gateway_vendor,All,Mailprotector,53,1.7
+gateway_vendor,All,Sophos,47,1.5
+gateway_vendor,All,TitanHQ,42,1.4
+gateway_vendor,All,SpamHero,34,1.1
+gateway_vendor,All,Fortinet FortiMail,30,1.0
+gateway_vendor,All,VIPRE,25,0.8
+gateway_vendor,All,Trend Micro,23,0.7
+gateway_vendor,All,Securence,22,0.7
+gateway_vendor,All,Other cloud filter,15,0.5
+gateway_vendor,All,Network Box,12,0.4
+gateway_vendor,All,Forcepoint,8,0.3
+gateway_vendor,All,Symantec / Broadcom,7,0.2
+gateway_vendor,All,Hornetsecurity,6,0.2
+gateway_vendor,All,SpamExperts,5,0.2
+gateway_vendor,All,Cloudflare Email Security,3,0.1
+gateway_vendor,All,Trellix,3,0.1
+gateway_vendor,All,MailRoute,1,0.0
+gateway_vendor,All,MXGuardian,1,0.0
+gateway_vendor,Banks,Proofpoint,706,37.5
+gateway_vendor,Banks,Barracuda,360,19.1
+gateway_vendor,Banks,AppRiver / Zix,282,15.0
+gateway_vendor,Banks,Mimecast,274,14.6
+gateway_vendor,Banks,Cisco Secure Email,81,4.3
+gateway_vendor,Banks,Mailprotector,37,2.0
+gateway_vendor,Banks,TitanHQ,30,1.6
+gateway_vendor,Banks,SpamHero,21,1.1
+gateway_vendor,Banks,Sophos,17,0.9
+gateway_vendor,Banks,Fortinet FortiMail,16,0.9
+gateway_vendor,Banks,Securence,11,0.6
+gateway_vendor,Banks,Network Box,11,0.6
+gateway_vendor,Banks,Trend Micro,9,0.5
+gateway_vendor,Banks,Symantec / Broadcom,7,0.4
+gateway_vendor,Banks,VIPRE,7,0.4
+gateway_vendor,Banks,Hornetsecurity,4,0.2
+gateway_vendor,Banks,Other cloud filter,4,0.2
+gateway_vendor,Banks,Forcepoint,3,0.2
+gateway_vendor,Banks,MailRoute,1,0.1
+gateway_vendor,Banks,Cloudflare Email Security,1,0.1
+gateway_vendor,Credit unions,Proofpoint,406,33.1
+gateway_vendor,Credit unions,Barracuda,273,22.3
+gateway_vendor,Credit unions,Mimecast,223,18.2
+gateway_vendor,Credit unions,AppRiver / Zix,142,11.6
+gateway_vendor,Credit unions,Sophos,30,2.4
+gateway_vendor,Credit unions,Cisco Secure Email,23,1.9
+gateway_vendor,Credit unions,VIPRE,18,1.5
+gateway_vendor,Credit unions,Mailprotector,16,1.3
+gateway_vendor,Credit unions,Trend Micro,14,1.1
+gateway_vendor,Credit unions,Fortinet FortiMail,14,1.1
+gateway_vendor,Credit unions,SpamHero,13,1.1
+gateway_vendor,Credit unions,TitanHQ,12,1.0
+gateway_vendor,Credit unions,Securence,11,0.9
+gateway_vendor,Credit unions,Other cloud filter,11,0.9
+gateway_vendor,Credit unions,Forcepoint,5,0.4
+gateway_vendor,Credit unions,SpamExperts,5,0.4
+gateway_vendor,Credit unions,Trellix,3,0.2
+gateway_vendor,Credit unions,Hornetsecurity,2,0.2
+gateway_vendor,Credit unions,Cloudflare Email Security,2,0.2
+gateway_vendor,Credit unions,MXGuardian,1,0.1
+gateway_vendor,Credit unions,Network Box,1,0.1
+gateway_vendor,Under $100M,Proofpoint,220,38.5
+gateway_vendor,Under $100M,Barracuda,129,22.6
+gateway_vendor,Under $100M,AppRiver / Zix,78,13.6
+gateway_vendor,Under $100M,Mailprotector,24,4.2
+gateway_vendor,Under $100M,Mimecast,23,4.0
+gateway_vendor,Under $100M,Sophos,17,3.0
+gateway_vendor,Under $100M,TitanHQ,16,2.8
+gateway_vendor,Under $100M,VIPRE,14,2.4
+gateway_vendor,Under $100M,Securence,12,2.1
+gateway_vendor,Under $100M,Other cloud filter,8,1.4
+gateway_vendor,Under $100M,SpamHero,6,1.0
+gateway_vendor,Under $100M,Cisco Secure Email,6,1.0
+gateway_vendor,Under $100M,Trend Micro,6,1.0
+gateway_vendor,Under $100M,Fortinet FortiMail,4,0.7
+gateway_vendor,Under $100M,Hornetsecurity,3,0.5
+gateway_vendor,Under $100M,SpamExperts,3,0.5
+gateway_vendor,Under $100M,Network Box,1,0.2
+gateway_vendor,Under $100M,MXGuardian,1,0.2
+gateway_vendor,Under $100M,Cloudflare Email Security,1,0.2
+gateway_vendor,$100M to $500M,Proofpoint,427,34.1
+gateway_vendor,$100M to $500M,Barracuda,337,26.9
+gateway_vendor,$100M to $500M,AppRiver / Zix,187,14.9
+gateway_vendor,$100M to $500M,Mimecast,131,10.4
+gateway_vendor,$100M to $500M,Cisco Secure Email,30,2.4
+gateway_vendor,$100M to $500M,Mailprotector,24,1.9
+gateway_vendor,$100M to $500M,TitanHQ,21,1.7
+gateway_vendor,$100M to $500M,Sophos,18,1.4
+gateway_vendor,$100M to $500M,SpamHero,16,1.3
+gateway_vendor,$100M to $500M,Fortinet FortiMail,11,0.9
+gateway_vendor,$100M to $500M,Trend Micro,10,0.8
+gateway_vendor,$100M to $500M,VIPRE,9,0.7
+gateway_vendor,$100M to $500M,Securence,8,0.6
+gateway_vendor,$100M to $500M,Network Box,7,0.6
+gateway_vendor,$100M to $500M,Other cloud filter,7,0.6
+gateway_vendor,$100M to $500M,Forcepoint,3,0.2
+gateway_vendor,$100M to $500M,Hornetsecurity,3,0.2
+gateway_vendor,$100M to $500M,Symantec / Broadcom,2,0.2
+gateway_vendor,$100M to $500M,SpamExperts,2,0.2
+gateway_vendor,$100M to $500M,Cloudflare Email Security,1,0.1
+gateway_vendor,$500M to $1B,Proofpoint,149,30.1
+gateway_vendor,$500M to $1B,Barracuda,98,19.8
+gateway_vendor,$500M to $1B,Mimecast,93,18.8
+gateway_vendor,$500M to $1B,AppRiver / Zix,86,17.4
+gateway_vendor,$500M to $1B,Cisco Secure Email,23,4.6
+gateway_vendor,$500M to $1B,SpamHero,10,2.0
+gateway_vendor,$500M to $1B,Sophos,9,1.8
+gateway_vendor,$500M to $1B,Fortinet FortiMail,6,1.2
+gateway_vendor,$500M to $1B,Mailprotector,5,1.0
+gateway_vendor,$500M to $1B,TitanHQ,4,0.8
+gateway_vendor,$500M to $1B,Symantec / Broadcom,2,0.4
+gateway_vendor,$500M to $1B,Trend Micro,2,0.4
+gateway_vendor,$500M to $1B,Network Box,2,0.4
+gateway_vendor,$500M to $1B,VIPRE,2,0.4
+gateway_vendor,$500M to $1B,Trellix,2,0.4
+gateway_vendor,$500M to $1B,Securence,1,0.2
+gateway_vendor,$500M to $1B,Cloudflare Email Security,1,0.2
+gateway_vendor,$1B to $10B,Proofpoint,246,36.3
+gateway_vendor,$1B to $10B,Mimecast,227,33.5
+gateway_vendor,$1B to $10B,AppRiver / Zix,72,10.6
+gateway_vendor,$1B to $10B,Barracuda,68,10.0
+gateway_vendor,$1B to $10B,Cisco Secure Email,36,5.3
+gateway_vendor,$1B to $10B,Fortinet FortiMail,8,1.2
+gateway_vendor,$1B to $10B,Trend Micro,5,0.7
+gateway_vendor,$1B to $10B,Forcepoint,4,0.6
+gateway_vendor,$1B to $10B,Sophos,3,0.4
+gateway_vendor,$1B to $10B,Network Box,2,0.3
+gateway_vendor,$1B to $10B,SpamHero,2,0.3
+gateway_vendor,$1B to $10B,Symantec / Broadcom,1,0.1
+gateway_vendor,$1B to $10B,MailRoute,1,0.1
+gateway_vendor,$1B to $10B,TitanHQ,1,0.1
+gateway_vendor,$1B to $10B,Trellix,1,0.1
+gateway_vendor,$1B to $10B,Securence,1,0.1
+gateway_vendor,$10B and over,Proofpoint,70,64.8
+gateway_vendor,$10B and over,Mimecast,23,21.3
+gateway_vendor,$10B and over,Cisco Secure Email,9,8.3
+gateway_vendor,$10B and over,Symantec / Broadcom,2,1.9
+gateway_vendor,$10B and over,AppRiver / Zix,1,0.9
+gateway_vendor,$10B and over,Fortinet FortiMail,1,0.9
+gateway_vendor,$10B and over,Barracuda,1,0.9
+gateway_vendor,$10B and over,Forcepoint,1,0.9

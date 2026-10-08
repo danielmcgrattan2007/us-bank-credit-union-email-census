@@ -1,0 +1,156 @@
+{
+  "name": "us-bank-credit-union-email-census",
+  "title": "US bank and credit union email census, 2026",
+  "description": "Aggregate tables from Provena's October 2026 census of US bank and credit union email: receiving mail provider, security gateway vendor, SPF and DMARC authentication by institution type, asset band, charter, top-level domain and state. Aggregate tables only; no domain list or personal data.",
+  "homepage": "https://www.provena-ai.com/research",
+  "version": "2026.10",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Provena",
+      "path": "https://www.provena-ai.com/",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "banks",
+    "credit unions",
+    "financial institutions",
+    "email deliverability",
+    "email security gateway",
+    "DMARC",
+    "SPF",
+    "FDIC",
+    "NCUA"
+  ],
+  "resources": [
+    {
+      "name": "bank-credit-union-email-census",
+      "path": "data/bank-credit-union-email-census.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "US bank and credit union email gateway and authentication census, October 2026",
+      "description": "MX, SPF and DMARC records resolved for 7,962 website domains of US banks (FDIC BankFind) and credit unions (NCUA call report data, June 2026), reported for the 7,537 domains that receive mail: receiving provider (security gateway, Microsoft 365, Google Workspace, other), SPF presence and all mechanism, DMARC presence and policy, split by bank or credit union, asset band, charter type, top-level domain and state. Aggregate tables only; the domain list is not published.",
+      "sources": [
+        {
+          "title": "US Bank and Credit Union Email Census: 7,537 Domains",
+          "path": "https://www.provena-ai.com/blog/bank-credit-union-email-census"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "cohort_type",
+            "type": "string"
+          },
+          {
+            "name": "cohort",
+            "type": "string"
+          },
+          {
+            "name": "domains",
+            "type": "number"
+          },
+          {
+            "name": "gateway_pct",
+            "type": "number"
+          },
+          {
+            "name": "microsoft365_pct",
+            "type": "number"
+          },
+          {
+            "name": "google_pct",
+            "type": "number"
+          },
+          {
+            "name": "other_mail_pct",
+            "type": "number"
+          },
+          {
+            "name": "has_spf_pct",
+            "type": "number"
+          },
+          {
+            "name": "spf_hardfail_pct",
+            "type": "number"
+          },
+          {
+            "name": "has_dmarc_pct",
+            "type": "number"
+          },
+          {
+            "name": "dmarc_p_none_pct",
+            "type": "number"
+          },
+          {
+            "name": "dmarc_quarantine_pct",
+            "type": "number"
+          },
+          {
+            "name": "dmarc_reject_pct",
+            "type": "number"
+          },
+          {
+            "name": "dmarc_enforced_pct",
+            "type": "number"
+          },
+          {
+            "name": "spf_without_dmarc_pct",
+            "type": "number"
+          },
+          {
+            "name": "dmarc_rua_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bank-credit-union-gateway-vendors",
+      "path": "data/bank-credit-union-gateway-vendors.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Email security gateway vendors used by US banks and credit unions, October 2026",
+      "description": "Security gateway vendor share among the 3,107 bank and credit union domains whose MX records point at a dedicated email security gateway (Proofpoint, Barracuda, Mimecast, AppRiver/Zix and others), overall and by cohort.",
+      "sources": [
+        {
+          "title": "US Bank and Credit Union Email Census: 7,537 Domains",
+          "path": "https://www.provena-ai.com/blog/bank-credit-union-email-census"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "table",
+            "type": "string"
+          },
+          {
+            "name": "cohort",
+            "type": "string"
+          },
+          {
+            "name": "gateway",
+            "type": "string"
+          },
+          {
+            "name": "domains",
+            "type": "number"
+          },
+          {
+            "name": "share_of_gateway_domains_pct",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}

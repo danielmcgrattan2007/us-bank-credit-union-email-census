@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use these tables, cite them as below and link to the source study on provena-ai.com."
+title: "US bank and credit union email census, 2026"
+type: dataset
+authors:
+  - name: "Provena"
+    website: "https://www.provena-ai.com/"
+version: "2026.10"
+date-released: "2026-10-08"
+license: CC-BY-4.0
+url: "https://www.provena-ai.com/blog/bank-credit-union-email-census"
+repository-code: "https://github.com/danielmcgrattan2007/us-bank-credit-union-email-census"
+keywords:
+  - banks
+  - credit unions
+  - email deliverability
+  - email security gateway
+  - DMARC
+  - SPF
