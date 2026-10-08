@@ -28,6 +28,13 @@ Aggregate tables only. The underlying domain list is not published, and nothing 
 
 Percentages are shares of the cohort's mail-receiving domains, rounded to one decimal place.
 
+## Selling software to banks and credit unions?
+
+These tables come out of Provena's own research into how financial institutions receive email. If you sell software or services to banks and credit unions, these guides use the same data to plan how you reach them:
+
+- How fintech companies sell to financial institutions: https://www.provena-ai.com/blog/how-to-sell-fintech-to-financial-institutions
+- Fintech and financial services lead generation agencies compared: https://www.provena-ai.com/blog/best-fintech-lead-generation-agencies
+
 ## Related
 
 - [US car dealership email and website census](https://github.com/danielmcgrattan2007/us-car-dealership-census), the same method applied to 17,659 dealer domains.
