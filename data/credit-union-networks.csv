@@ -1,0 +1,19 @@
+network_type,network,credit_unions_naming_it
+shared_branch_network,CO-OP,937
+shared_branch_network,Velera,119
+shared_branch_network,Shared Branching,23
+shared_branch_network,CUSC,17
+shared_branch_network,USNET,16
+shared_branch_network,Shared Cooperative Services,13
+shared_branch_network,Shared Services For Credit Unions,12
+shared_branch_network,Xtend Shared Branching,12
+surcharge_free_atm_network,CO-OP,1069
+surcharge_free_atm_network,Allpoint,363
+surcharge_free_atm_network,Alliance One,240
+surcharge_free_atm_network,MoneyPass,227
+surcharge_free_atm_network,Velera,109
+surcharge_free_atm_network,Culiance,70
+surcharge_free_atm_network,SUM,50
+surcharge_free_atm_network,STAR,49
+surcharge_free_atm_network,TransFund,37
+surcharge_free_atm_network,SURF,23

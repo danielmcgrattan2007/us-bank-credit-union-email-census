@@ -1,7 +1,7 @@
 {
   "name": "us-bank-credit-union-email-census",
-  "title": "US bank and credit union email census, 2026",
-  "description": "Aggregate tables from Provena's October 2026 census of US bank and credit union email: receiving mail provider, security gateway vendor, SPF and DMARC authentication by institution type, asset band, charter, top-level domain and state. Aggregate tables only; no domain list or personal data.",
+  "title": "US bank and credit union email census and credit union market census, 2026",
+  "description": "Aggregate tables from Provena's October 2026 census of US bank and credit union email: receiving mail provider, security gateway vendor, SPF and DMARC authentication by institution type, asset band, charter, top-level domain and state. Aggregate tables only; no domain list or personal data. Also the credit union market from the NCUA June 2026 call report: assets, members, staff, branches, digital services, shared networks and indirect vehicle lending by asset band and charter.",
   "homepage": "https://www.provena-ai.com/research",
   "version": "2026.10",
   "licenses": [
@@ -27,7 +27,10 @@
     "DMARC",
     "SPF",
     "FDIC",
-    "NCUA"
+    "NCUA",
+    "call report",
+    "indirect lending",
+    "credit union market"
   ],
   "resources": [
     {
@@ -147,6 +150,136 @@
           },
           {
             "name": "share_of_gateway_domains_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "credit-union-market-census",
+      "path": "data/credit-union-market-census.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "US credit union market census, June 2026",
+      "description": "Aggregates of the NCUA call report for the quarter ending 30 June 2026 across 4,299 credit unions, by asset band and charter: count, share of assets and members, median members, staff (full-time plus half of part-time) and branches, members per staff, online banking, mobile app, person-to-person payments, shared branching, surcharge-free ATM network, indirect lending and indirect new and used vehicle lending.",
+      "sources": [
+        {
+          "title": "Selling to Credit Unions: What 4,299 Call Reports Show",
+          "path": "https://www.provena-ai.com/blog/selling-to-credit-unions"
+        },
+        {
+          "title": "NCUA credit union and corporate call report data",
+          "path": "https://www.ncua.gov/analysis/credit-union-corporate-call-report-data/quarterly-data"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "cohort_type",
+            "type": "string"
+          },
+          {
+            "name": "cohort",
+            "type": "string"
+          },
+          {
+            "name": "credit_unions",
+            "type": "number"
+          },
+          {
+            "name": "share_of_assets_pct",
+            "type": "number"
+          },
+          {
+            "name": "share_of_members_pct",
+            "type": "number"
+          },
+          {
+            "name": "median_members",
+            "type": "number"
+          },
+          {
+            "name": "median_fte_staff",
+            "type": "number"
+          },
+          {
+            "name": "median_branches",
+            "type": "number"
+          },
+          {
+            "name": "members_per_fte",
+            "type": "number"
+          },
+          {
+            "name": "online_banking_pct",
+            "type": "number"
+          },
+          {
+            "name": "mobile_app_pct",
+            "type": "number"
+          },
+          {
+            "name": "p2p_payments_pct",
+            "type": "number"
+          },
+          {
+            "name": "shared_branching_pct",
+            "type": "number"
+          },
+          {
+            "name": "surcharge_free_atm_network_pct",
+            "type": "number"
+          },
+          {
+            "name": "indirect_lending_pct",
+            "type": "number"
+          },
+          {
+            "name": "indirect_share_of_loans_pct",
+            "type": "number"
+          },
+          {
+            "name": "indirect_vehicle_lending_pct",
+            "type": "number"
+          },
+          {
+            "name": "vehicle_share_of_indirect_pct",
+            "type": "number"
+          },
+          {
+            "name": "indirect_vehicle_share_of_loans_pct",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "credit-union-networks",
+      "path": "data/credit-union-networks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Shared branching and surcharge-free ATM networks named by US credit unions, June 2026",
+      "description": "Free-text network names from the NCUA June 2026 call report, grouped by name, with the number of credit unions naming each (top 8 shared branching, top 10 ATM).",
+      "sources": [
+        {
+          "title": "Selling to Credit Unions: What 4,299 Call Reports Show",
+          "path": "https://www.provena-ai.com/blog/selling-to-credit-unions"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "network_type",
+            "type": "string"
+          },
+          {
+            "name": "network",
+            "type": "string"
+          },
+          {
+            "name": "credit_unions_naming_it",
             "type": "number"
           }
         ]
